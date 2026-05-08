@@ -1,0 +1,48 @@
+git config user.name --> devuelve el usuario de git.
+git config user.email--> devuelve el correo
+
+git config user.name tu_usuario agregar o cambiar el usuaro de git 
+git config user.email tu_correo
+
+Primero crear mi repositorio local para que no me de error 
+
+git init 
+cuadno aparece master ( esto es una rama principal ) es un espacio de trabajo 
+
+Conectandome con mi hit hub 
+
+MINEDUCYT@DESKTOP-DHSOO9J MINGW64 /c/2026/Kodigo/Mod3 (master)
+$ git remote add origin https://github.com/icantorprivados-alt/MyWorkPractice.git
+
+MINEDUCYT@DESKTOP-DHSOO9J MINGW64 /c/2026/Kodigo/Mod3 (master)
+$ git remote -v
+origin  https://github.com/icantorprivados-alt/MyWorkPractice.git (fetch)
+origin  https://github.com/icantorprivados-alt/MyWorkPractice.git (push)
+
+
+Una vez mas  realizada la conexion 
+3-ahora viene como subir los cambios 
+git status/ git status -s  -->Verifica cambios en el repositorio local 
+
+??index.html--> los signos de interrogación significa que ese archivo no esta en 
+hithub
+
+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+Necesito pasar del local al remoto 
+Importante Zona Staying 
+git add --all
+git add index.html 
+git statura  
++-+-++-+-+-+-+-+-+-+-+
+Cada cambio debe tener comentarios ( esto es obligatorio) 
+git commit -m "subi el archivo index.html"
++++++++¿+¿¿+¿++++++++++++++++++++
+
+Subir el cambio 
+
+git push origin nombre de la rama 
+git branch (esto me muestra el nombre de la rama) 
+
+
+
+
