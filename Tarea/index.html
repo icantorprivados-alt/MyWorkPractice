@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Instituto Nacional Albert Camus — Formando líderes con excelencia académica. Bachilleratos en General, Software, Contabilidad y Salud." />
+  <title>Instituto Nacional Albert Camus — INAC</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+ 
+</head>
+   
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════════ -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="nav-container">
+    <a href="#inicio" class="nav-brand" aria-label="Inicio INAC">
+  <img 
+    src="camuslogo.png" 
+    alt="Logo INAC" 
+    class="nav-logo-img"
+    style="width:42px; height:42px; object-fit:contain; border-radius:50%; border:2px solid #c9a84c; flex-shrink:0;"
+  />
+  <span class="brand-full">Instituto Nacional Albert Camus</span>
+</a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#inicio" class="nav-link" data-section="inicio">Inicio</a></li>
+        <li><a href="#nosotros" class="nav-link" data-section="nosotros">Nosotros</a></li>
+        <li><a href="#servicios" class="nav-link" data-section="servicios">Bachilleratos</a></li>
+        <li><a href="#matricula" class="nav-link" data-section="matricula">Matrícula 2027</a></li>
+        <li><a href="#contacto" class="nav-link nav-cta" data-section="contacto">Contáctanos</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero" id="inicio" aria-label="Sección principal">
+    <div class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-grid-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow">Desde 1985 · Excelencia Académica</p>
+      <h1 class="hero-title">
+        Instituto Nacional<br />
+        <em>Albert Camus</em>
+      </h1>
+      <p class="hero-subtitle">
+        Formamos ciudadanos íntegros, críticos y preparados para los retos del siglo XXI.
+        Bachilleratos de alto nivel con visión humana y científica.
+      </p>
+      <div class="hero-actions">
+        <a href="#matricula" class="btn btn-primary">
+          <span>Matrícula 2027</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#nosotros" class="btn btn-ghost">Conoce el INAC</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-num">+3,500</span>
+          <span class="stat-label">Egresados</span>
+        </div>
+        <div class="stat-divider"></div>
+       <a href="#servicios" class="stat" style="text-decoration:none; color:inherit;">
+  <span class="stat-num">4</span>
+  <span class="stat-label">Bachilleratos</span>
+</a>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num">38+</span>
+          <span class="stat-label">Años de historia</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#contacto" class="hero-scroll">
+  <div class="scroll-line"></div>
+  <span>Descubre más</span>
+</a>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       NOSOTROS
+  ═══════════════════════════════════════════ -->
+  <section class="nosotros" id="nosotros" aria-labelledby="nosotros-title">
+ 						
+      <div class="container">
+            
+       <div class="nosotros-grid">
+
+  <div class="nosotros-visual">
+
+    <img
+      src="poster.png"
+      alt="Imagen institucional INAC"
+      style="width:100%; height:auto; border-radius:12px; opacity:0.9; margin-bottom:1.5rem; display:block;"
+    />
+
+    <div class="visual-frame">
+      <div class="visual-inner">
+        <div class="visual-icon">
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="35" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M20 80 Q50 55 80 80" fill="none" stroke="currentColor" stroke-width="2"/>
+            <path d="M10 95 Q50 70 90 95" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.5"/>
+            <circle cx="50" cy="35" r="6" fill="currentColor" opacity="0.3"/>
+          </svg>
+        </div>
+        <p class="visual-quote">"El hombre es la única criatura que se niega a ser lo que es."</p>
+        <span class="visual-author">— Albert Camus</span>
+      </div>
+    </div>
+
+    <div class="visual-accent-block"></div>
+  </div>
+
+  <div class="nosotros-text">
+
+  <div style="display:flex; align-items:center; gap:20px; margin-bottom:20px;">
+
+    <img
+      src="camuslogo.png"
+      alt="Logo INAC"
+      style="width:4cm; height:4cm; object-fit:contain; flex-shrink:0;"
+    >
+
+    <div>
+      <span class="section-tag">Nuestra Institución</span>
+      <h2 class="section-title" id="nosotros-title">
+        Más de tres décadas<br><em>transformando vidas</em>
+      </h2>
+    </div>
+
+  </div>
+          <p class="nosotros-lead">
+            El Instituto Nacional Albert Camus es una institución educativa comprometida con
+            la formación académica de calidad, el desarrollo humano integral y la preparación de
+            jóvenes capaces de contribuir positivamente a la sociedad.
+          </p>
+          <p class="nosotros-body">
+            Inspirados en el pensamiento de Albert Camus —filósofo del absurdo, la libertad y la dignidad humana—
+            cultivamos en nuestros estudiantes el pensamiento crítico, la ética profesional y la
+            excelencia académica. Nuestro cuerpo docente altamente calificado, nuestras instalaciones
+            modernas y nuestra metodología innovadora nos posicionan como referente educativo de la región.
+          </p>
+          <div class="nosotros-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+              </div>
+              <div>
+                <strong>Excelencia Académica</strong>
+                <p>Planes de estudio actualizados y alineados con estándares nacionales.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <div>
+                <strong>Formación Integral</strong>
+                <p>Valores, liderazgo y responsabilidad social en cada proceso educativo.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+              </div>
+              <div>
+                <strong>Comunidad Comprometida</strong>
+                <p>Docentes, familias y estudiantes unidos por un mismo propósito.</p>
+            </div>
+    </div>
+</div>
+
+<section class="campus-institutional-info" style="clear: both; display: block; width: 100%;">
+    <hr class="separator-line">
+    
+    <div class="mv-grid">
+        <div class="mv-card">
+            <div class="mv-icon">🎯</div>
+            <h3>Misión</h3>
+            <p>“Ser una Institución Educativa enfocada en el desarrollo humano, proporcionando a la población estudiantil servicios educativos de calidad, a nivel de Educación Media, a través de programas educativos con metodología de innovación académica y de espíritu democrático, utilizando tecnología de vanguardia que forme bachilleres competitivos, con pensamiento analítico, crítico, reflexivo, y con proyección social, para enfrentar eficiente, eficaz y éticamente los retos y demandas de una sociedad en proceso de cambio”..</p>
+        </div>
+
+        <div class="mv-card">
+            <div class="mv-icon">🚀</div>
+            <h3>Visión</h3>
+            <p>“Ser una Institución líder que contribuya a fortalecer la formación del futuro ciudadano con capacidad académica, análisis crítico y calidad humana que responda a los cambios de una sociedad democrática cambiante para contribuir al desarrollo económico, político, social y cultural de nuestro país, rescatando los valores de nuestra identidad nacional”.</p>
+        </div>
+    </div>
+<section class="videos-section">
+
+  <div style="display:flex; justify-content:center; gap:25px; flex-wrap:wrap;">
+
+    <div style="
+      width:225px;
+      height:225px;
+      background:#ffffff;
+      border:2px solid #c9a646;
+      border-radius:12px;
+      padding:15px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      text-align:center;
+    ">
+      <div>
+        <h4 style="color:#091d36; margin-bottom:10px;">
+          Información de Desarrollo de Software
+        </h4>
+
+        <p style="font-size:0.85rem; color:#555;">
+          Conoce proyectos y actividades realizadas por los estudiantes del área de Software.
+        </p>
+      </div>
+
+      <a href="https://www.tiktok.com/@camus_sv/video/7595345781255605516?is_from_webapp=1&sender_device=pc"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="
+          background:#091d36;
+          color:white;
+          text-decoration:none;
+          padding:10px;
+          border-radius:8px;
+          font-size:0.9rem;
+          font-weight:600;
+         ">
+         Ver TikTok
+      </a>
+    </div>
+
+    <div style="
+      width:225px;
+      height:225px;
+      background:#ffffff;
+      border:2px solid #c9a646;
+      border-radius:12px;
+      padding:15px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.08);
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      text-align:center;
+    ">
+      <div>
+        <h4 style="color:#091d36; margin-bottom:10px;">
+          Carrera en Salud
+        </h4>
+
+        <p style="font-size:0.85rem; color:#555;">
+          Información sobre actividades académicas y prácticas del área de Salud.
+        </p>
+      </div>
+
+      <a href="https://www.tiktok.com/@camus_sv/video/7594939346877304076?is_from_webapp=1&sender_device=pc"
+         target="_blank"
+         rel="noopener noreferrer"
+         style="
+          background:#091d36;
+          color:white;
+          text-decoration:none;
+          padding:10px;
+          border-radius:8px;
+          font-size:0.9rem;
+          font-weight:600;
+         ">
+         Ver TikTok
+      </a>
+    </div>
+
+  </div>
+
+       <div class="valores-section">
+                <h3 class="valores-title">Valores</h3>
+                <div class="valores-grid">
+                  <div class="valor-card">
+                    <h4>Orden y Disciplina</h4>
+                    <p>Pilares fundamentales para el éxito y la sana convivencia en la comunidad educativa.</p>
+                  </div>
+                  <div class="valor-card">
+                    <h4>Respeto y Tolerancia</h4>
+                    <p>Fomento de un ambiente inclusivo y de armonía entre el alumnado y el cuerpo docente.</p>
+                  </div>
+                  <div class="valor-card">
+                    <h4>Liderazgo</h4>
+                    <p>Desarrollo de habilidades de autogestión y trabajo en equipo.</p>
+                  </div>
+                  <div class="valor-card">
+                    <h4>Responsabilidad Social y Compromiso</h4>
+                    <p>Preparación de jóvenes conscientes de su rol activo en la sociedad salvadoreña.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+           
+
+  <!-- ═══════════════════════════════════════════
+       SERVICIOS / BACHILLERATOS
+  ═══════════════════════════════════════════ -->
+  <section class="servicios" id="servicios" aria-labelledby="servicios-title">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Oferta Académica</span>
+        <h2 class="section-title" id="servicios-title">
+          Elige tu<br /><em>Bachillerato</em>
+        </h2>
+        <p class="section-desc">
+          Cuatro especialidades diseñadas para potenciar tus habilidades y abrirte las puertas
+          a la educación superior y al mundo laboral.
+        </p>
+      </div>
+
+      <div class="servicios-grid">
+
+  <!-- Card 1: General -->
+  <article class="service-card" data-color="gold" aria-label="Bachillerato General">
+    <div class="card-header">
+      <div class="card-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="6" y="8" width="36" height="32" rx="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M14 18h20M14 24h20M14 30h12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="card-badge">Opción 1</span>
+    </div>
+    <h3 class="card-title">Bachillerato General</h3>
+    <p class="card-duration">⏱ Duración: 2 años</p>
+    <p class="card-desc">
+      Base humanística y científica que abre las puertas a <strong>cualquier carrera universitaria</strong>.
+      Ideal si aún estás explorando tu vocación y quieres una formación sólida y versátil.
+    </p>
+    <ul class="card-features" role="list">
+      <li>Ciencias Naturales y Exactas</li>
+      <li>Ciudadanía y Valores</li>
+      <li>Lenguaje y Literatura</li>
+      <li>Educación Física y Arte</li>
+    </ul>
+    <a href="#matricula" class="card-cta" aria-label="Inscribirme en Bachillerato General">
+      Inscribirme <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
+  <!-- Card 2: Software -->
+  <article class="service-card featured" data-color="blue" aria-label="Bachillerato en Software">
+    <div class="card-header">
+      <div class="card-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="10" width="40" height="28" rx="3" stroke="currentColor" stroke-width="2"/>
+          <path d="M16 22l-6 2 6 2M32 22l6 2-6 2M22 30l4-12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <span class="card-badge featured-badge">⭐ Popular</span>
+    </div>
+    <h3 class="card-title">Bachillerato en Desarrollo de Software</h3>
+    <p class="card-duration" style="color: rgba(255,255,255,0.6);">⏱ Duración: 3 años</p>
+    <p class="card-desc">
+      Aprende a <strong>crear aplicaciones, sitios web y sistemas</strong> desde cero.
+      La especialidad con mayor demanda laboral del país, pensada para quienes quieren liderar la era digital.
+    </p>
+    <ul class="card-features" role="list">
+      <li>Programación en Diversos Lenguajes</li>
+      <li>Desarrollo Web</li>
+      <li>Bases de Datos</li>
+      <li>Prácticas en Empresas Tecnológicas</li>
+    </ul>
+    <a href="#matricula" class="card-cta" aria-label="Inscribirme en Bachillerato en Software">
+      Inscribirme <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
+  <!-- Card 3: Contabilidad -->
+  <article class="service-card" data-color="green" aria-label="Bachillerato en Contabilidad">
+    <div class="card-header">
+      <div class="card-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M10 38V14a2 2 0 012-2h24a2 2 0 012 2v24" stroke="currentColor" stroke-width="2"/>
+          <path d="M6 38h36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <path d="M18 22h12M18 28h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="32" cy="29" r="3" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <span class="card-badge">Opción 3</span>
+    </div>
+    <h3 class="card-title">Bachillerato Administrativo Contable</h3>
+    <p class="card-duration">⏱ Duración: 3 años</p>
+    <p class="card-desc">
+      Domina las finanzas y la gestión empresarial. Perfecta para quienes desean
+      <strong>emprender, administrar negocios</strong> o trabajar en el sector financiero desde temprano.
+    </p>
+    <ul class="card-features" role="list">
+      <li>Contabilidad General y Avanzada</li>
+      <li>Finanzas Empresariales</li>
+      <li>Legislación Tributaria</li>
+      <li>Prácticas en Empresas con opción a oportunidad laboral</li>
+    </ul>
+    <a href="#matricula" class="card-cta" aria-label="Inscribirme en Bachillerato Administrativo Contable">
+      Inscribirme <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
+  <!-- Card 4: Salud -->
+  <article class="service-card" data-color="rose" aria-label="Bachillerato en Salud">
+    <div class="card-header">
+      <div class="card-icon">
+        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M24 10c-4-6-14-6-14 4 0 8 14 18 14 18s14-10 14-18c0-10-10-10-14-4z" stroke="currentColor" stroke-width="2"/>
+          <path d="M20 24h8M24 20v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <span class="card-badge">Opción 4</span>
+    </div>
+    <h3 class="card-title">Bachillerato en Salud y Bienestar Social</h3>
+    <p class="card-duration">⏱ Duración: 3 años</p>
+    <p class="card-desc">
+      Orientada a las ciencias biomédicas y el cuidado humano. Prepara para
+      <strong>medicina, enfermería, nutrición</strong> y todas las carreras del área de la salud.
+    </p>
+    <ul class="card-features" role="list">
+      <li>Biología y Anatomía Humana</li>
+      <li>Química y Bioquímica</li>
+      <li>Primeros Auxilios y Enfermería Básica</li>
+      <li>Prácticas Profesionales en Hospitales</li>
+    </ul>
+    <a href="#matricula" class="card-cta" aria-label="Inscribirme en Bachillerato en Salud">
+      Inscribirme <span aria-hidden="true">→</span>
+    </a>
+  </article>
+
+</div>
+    </div>
+  </section>
+ 
+           <div class="container" style="margin-top: 40px; margin-bottom: 40px;">
+  <div style="display: flex; flex-direction: column; gap: 30px; max-width: 800px; margin: 0 auto;">
+
+    <div style="display: flex; align-items: center; justify-content: space-between; background: linear-gradient(135deg, #fff5f7, #fff1f2);
+padding: 20px;
+border-radius: 16px;
+border: 3px solid #ec4899;
+box-shadow: 0 8px 25px rgba(236,72,153,0.2);">
+      
+      <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
+        <div style="width: 120px; height: 120px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); flex-shrink: 0;">
+          <video style="width: 100%; height: 100%; object-fit: cover;" controls preload="metadata">
+            <source src="videos/Canet.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+        <div>
+          <h4 style="color: #091d36; font-family: 'DM Sans', sans-serif; font-size: 1.1rem; margin: 0 0 5px 0; font-weight: 600;">Identidad Institucional</h4>
+          <p style="color: #555555; font-size: 0.9rem; margin: 0;">Video informativo sobre Carnetización y la Banda de Paz.</p>
+        </div>
+      </div>
+
+      <div style="flex-shrink: 0;">
+        <a href="https://www.tiktok.com/@camus_sv/video/7634758592033246472?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 10px; background: #000000; color: #ffffff; padding: 12px 24px; border-radius: 30px; font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 0.95rem; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display: block;">
+            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.03 1.6 4.17 1.12 1.25 2.7 1.94 4.38 2.12v3.74c-1.39-.07-2.77-.51-3.93-1.32-.38-.27-.72-.58-1.03-.92-.01 2.53-.01 5.06-.02 7.59-.06 2.55-.91 5.12-2.79 6.89-2.14 2-5.26 2.62-7.99 1.69-2.61-.88-4.66-3.19-5.18-5.91-.65-3.37.95-6.95 3.93-8.38 1.4-.68 3.01-.89 4.54-.56v3.83c-.94-.32-2.01-.17-2.82.43-.88.64-1.34 1.76-1.18 2.85.18 1.26 1.22 2.27 2.49 2.37 1.34.1 2.61-.75 2.94-2.03.11-.42.14-.87.14-1.31V0z"/>
+          </svg>
+          Ver en TikTok
+        </a>
+      </div>
+
+    </div>
+
+<div style="display: flex;
+align-items: center;
+justify-content: space-between;
+background: linear-gradient(135deg, #fff5f7, #fff1f2);
+padding: 20px;
+border-radius: 16px;
+border: 3px solid #ec4899;
+box-shadow: 0 8px 25px rgba(236,72,153,0.2);
+gap: 20px;
+flex-wrap: wrap;">
+      
+      <div style="display: flex; align-items: center; gap: 20px; flex: 1; min-width: 280px;">
+       <div style="width: 120px; height: 120px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.08); flex-shrink: 0;">
+          <video style="width: 100%; height: 100%; object-fit: cover;" controls preload="metadata">
+            <source src="videos/SoftwarwProyec.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+          </video>
+        </div>
+        <div>
+          <h4 style="color: #091d36; font-family: 'DM Sans', sans-serif; font-size: 1.1rem; margin: 0 0 5px 0; font-weight: 600;">Proyectos en el Area  de Software y de Salud</h4>
+          <p style="color: #555555; font-size: 0.9rem; margin: 0;">Muestra la especialidad en Proyecto de Sofware y proyecto en Temas Importante en la Salud.</p>
+        </div>
+      </div>
+
+      <div style="flex-shrink: 0;">
+        <a href="https://www.tiktok.com/@camus_sv/video/7622062227792596242?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 10px; background: #000000; color: #ffffff; padding: 12px 24px; border-radius: 30px; font-family: 'DM Sans', sans-serif; font-weight: 500; font-size: 0.95rem; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: transform 0.2s ease;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="display: block;">
+            <path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.03 1.6 4.17 1.12 1.25 2.7 1.94 4.38 2.12v3.74c-1.39-.07-2.77-.51-3.93-1.32-.38-.27-.72-.58-1.03-.92-.01 2.53-.01 5.06-.02 7.59-.06 2.55-.91 5.12-2.79 6.89-2.14 2-5.26 2.62-7.99 1.69-2.61-.88-4.66-3.19-5.18-5.91-.65-3.37.95-6.95 3.93-8.38 1.4-.68 3.01-.89 4.54-.56v3.83c-.94-.32-2.01-.17-2.82.43-.88.64-1.34 1.76-1.18 2.85.18 1.26 1.22 2.27 2.49 2.37 1.34.1 2.61-.75 2.94-2.03.11-.42.14-.87.14-1.31V0z"/>
+          </svg>
+          Ver en TikTok
+        </a>
+      </div>
+
+    </div>
+
+  </div>
+</div>     
+</section>
+      
+       <!-- ═══════════════════════════════════════════
+       FORMULARIO MATRÍCULA 2027
+  ═══════════════════════════════════════════ -->
+  <section class="matricula" id="matricula" aria-labelledby="matricula-title">
+    <div class="container">
+      <div class="matricula-grid">
+
+        <div class="matricula-info">
+          <span class="section-tag light">Proceso de Matrícula</span>
+          <h2 class="section-title light" id="matricula-title">
+            Matrícula<br /><em>2027</em>
+          </h2>
+          <p class="matricula-desc">
+            Asegura tu cupo en el INAC. Completa el formulario y recibirás en tu correo
+            electrónico toda la información, requisitos y pasos del proceso de matrícula 2027.
+          </p>
+
+          <div class="info-steps">
+            <div class="step">
+              <div class="step-num">01</div>
+              <div class="step-text">
+                <strong>Llena el formulario</strong>
+                <p>Ingresa los datos del estudiante y un correo de contacto válido.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">02</div>
+              <div class="step-text">
+                <strong>Revisa tu correo</strong>
+                <p>Recibirás la guía completa del proceso de matrícula en tu bandeja de entrada.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-num">03</div>
+              <div class="step-text">
+                <strong>Presenta tu documentación</strong>
+                <p>Trae los documentos solicitados a las instalaciones del INAC.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="matricula-dates">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+            <p><strong>Período de inscripción:</strong> SEPTIEMBRE– DICIEMBRE 2026</p>
+          </div>
+        </div>
+
+        <div class="form-container">
+          <form class="matricula-form" id="matricula-form" novalidate aria-label="Formulario de matrícula 2027">
+            <div class="form-title-row">
+              <h3>Datos del Estudiante</h3>
+              <span class="form-required-note">* Campos requeridos</span>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nombre" class="form-label">Nombre(s) *</label>
+                <input type="text" id="nombre" name="nombre" class="form-input" placeholder="Ej. María José" autocomplete="given-name" required aria-required="true" />
+                <span class="form-error" id="nombre-error" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="apellido" class="form-label">Apellido(s) *</label>
+                <input type="text" id="apellido" name="apellido" class="form-input" placeholder="Ej. González Pérez" autocomplete="family-name" required aria-required="true" />
+                <span class="form-error" id="apellido-error" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="dui" class="form-label">DUI / Pasaporte *</label>
+                <input type="text" id="dui" name="dui" class="form-input" placeholder="00000000-0" required aria-required="true" />
+                <span class="form-error" id="dui-error" role="alert"></span>
+              </div>
+              <div class="form-group">
+                <label for="fecha-nac" class="form-label">Fecha de Nacimiento *</label>
+                <input type="date" id="fecha-nac" name="fecha-nac" class="form-input" required aria-required="true" />
+                <span class="form-error" id="fecha-nac-error" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="bachillerato" class="form-label">Bachillerato de Interés *</label>
+              <select id="bachillerato" name="bachillerato" class="form-input form-select" required aria-required="true">
+                <option value="" disabled selected>Selecciona una opción…</option>
+                <option value="general">Bachillerato General</option>
+                <option value="software">Bachillerato en Software</option>
+                <option value="contabilidad">Bachillerato en Contabilidad</option>
+                <option value="salud">Bachillerato en Salud</option>
+              </select>
+              <span class="form-error" id="bachillerato-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="telefono" class="form-label">Teléfono de Contacto *</label>
+              <input type="tel" id="telefono" name="telefono" class="form-input" placeholder="0000-0000" autocomplete="tel" required aria-required="true" />
+              <span class="form-error" id="telefono-error" role="alert"></span>
+            </div>
+
+            <div class="form-group">
+              <label for="correo" class="form-label">Correo Electrónico *</label>
+              <input type="email" id="correo" name="correo" class="form-input" placeholder="estudiante@correo.com" autocomplete="email" required aria-required="true" />
+              <span class="form-error" id="correo-error" role="alert"></span>
+              <span class="form-hint">Recibirás toda la información del proceso de matrícula en este correo.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="municipio" class="form-label">Municipio / Ciudad *</label>
+              <input type="text" id="municipio" name="municipio" class="form-input" placeholder="Ej. San Salvador" required aria-required="true" />
+              <span class="form-error" id="municipio-error" role="alert"></span>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="checkbox-label">
+                <input type="checkbox" id="terminos" name="terminos" required aria-required="true" />
+                <span class="checkmark"></span>
+                Acepto el tratamiento de mis datos personales conforme a la política de privacidad del INAC.
+              </label>
+              <span class="form-error" id="terminos-error" role="alert"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              <span class="btn-text">Enviar Solicitud de Matrícula</span>
+              <span class="btn-loading" aria-hidden="true">Enviando…</span>
+              <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+            </button>
+          </form>
+
+          
+
+      </div>
+    </div>
+  </section>
+
+ 
+  <!-- ═══════════════════════════════════════════
+       FOOTER / CONTACTO
+  ═══════════════════════════════════════════ -->
+  <footer class="footer" id="contacto" role="contentinfo">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="#inicio" class="footer-logo" aria-label="Inicio INAC">
+              <span class="brand-initials">INAC</span>
+            </a>
+            <p class="footer-tagline">Instituto Nacional Albert Camus</p>
+            <p class="footer-desc">
+              Formando generaciones con valores, conocimiento y compromiso social desde 1985.
+            </p>
+            <div class="social-links" role="list" aria-label="Redes sociales">
+              <a href="https://www.facebook.com/inacoficial" target="_blank" rel="noopener noreferrer" class="social-link" role="listitem" aria-label="Facebook oficial del INAC">
+                <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/camus_sv?igsh=MTk2dmxvbTNvaW9jbA=="
+   target="_blank"
+   rel="noopener noreferrer"
+   class="social-link"
+   aria-label="Instagram del INAC">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <rect x="2" y="2" width="20" height="20" rx="5"/>
+    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+  </svg>
+</a>
+              <a href="#" class="social-link" aria-label="YouTube del INAC">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.95C18.88 4 12 4 12 4s-6.88 0-8.59.47A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.53C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/>
+                  <polygon points="9.75,15.02 15.5,12 9.75,8.98 9.75,15.02" fill="currentColor" stroke="none"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Bachilleratos</h4>
+            <ul class="footer-links" role="list">
+              <li><a href="#servicios">Bachillerato General</a></li>
+              <li><a href="#servicios">Bachillerato en Software</a></li>
+              <li><a href="#servicios">Bachillerato en Contabilidad</a></li>
+              <li><a href="#servicios">Bachillerato en Salud</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Institución</h4>
+            <ul class="footer-links" role="list">
+              <li><a href="#nosotros">Quiénes Somos</a></li>
+              <li><a href="#servicios">Oferta Académica</a></li>
+              <li><a href="#matricula">Matrícula 2027</a></li>
+              <li><a href="https://www.facebook.com/inacoficial" target="_blank" rel="noopener noreferrer">Facebook Oficial</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4 class="footer-heading">Contacto</h4>
+            <address class="footer-contact">
+             <div class="contact-item">
+  <span>
+     <a href="https://www.facebook.com/inacoficial" target="_blank" rel="noopener noreferrer">
+      Facebook Oficial
+    </a>
+  </span>
+</div>
+
+<div class="contact-item">
+  <span>
+    <a href="https://www.tiktok.com/@camus_sv" target="_blank" rel="noopener noreferrer">
+      TikTok @camus_sv
+    </a>
+  </span>
+</div>
+              <address class="footer-contact">
+
+  <div class="contact-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+      <circle cx="12" cy="10" r="3"/>
+    </svg>
+
+    <a href="https://www.waze.com/es/live-map/directions/instituto-nacional-albert-camus-calle-san-antonio-abad-san-salvador?to=place.w.177471625.1774650715.3535929"
+       target="_blank"
+       rel="noopener noreferrer">
+      Instituto Nacional Albert Camus, Calle San Antonio Abad, San Salvador
+    </a>
+  </div>
+
+  <div class="contact-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.81 19.79 19.79 0 01.12 2.18 2 2 0 012.1 0h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/>
+    </svg>
+    <span>+503 2225 0710</span>
+  </div>
+
+  <div class="contact-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+      <polyline points="22,6 12,13 2,6"/>
+    </svg>
+    <span>info@inac.edu.sv</span>
+  </div>
+  </address>
+</div>
+               <script src="script.js"></script>
+              </body>
+            
